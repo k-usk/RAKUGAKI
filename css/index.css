@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    overflow: hidden;
+    position: relative;
+    color: #333333;
+    font-family: "Arial Rounded MT Bold";
+}
+
+canvas{
+    background-color: #fff;
+}
+
+#overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#saveResult{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    text-align: center;
+}
+#saveResult p{
+    font-family: "Arial Rounded MT Bold";
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 26px;
+    margin-top: 220px;
+}
+
+#menu{
+    display: none;
+    position: absolute;
+    width: 180px;
+    height: 255px;
+    top: 100px;
+    left: 60px;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #B2DBEF;
+    padding: 10px;
+    /*ふちを二重に*/
+    box-shadow: 1px 1px 0 #fff inset,-1px -1px 0 #fff inset;
+    /*角丸*/
+    /*border-radius: 5px;*/
+}
+#menu h2{
+    font-size: 14px;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+#menu ul{
+    overflow: hidden;
+    padding: 0;
+    margin: 5px 0 0 0;
+}
+#menu li{
+    list-style: none;
+}
+#menu li.colorbox{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0 0 10px 10px;
+    padding: 0;
+    float: left;
+    border:solid #fff 1px;
+}
+
+#menu li.current{border:solid #CD5C5C 1px;}
+
+#menu .boxClose{
+    position: absolute;
+    top: 3px;
+    left: 180px;
+}
+#menu .wrapper{
+    position: relative;
+}
+
+/* スライダー */
+.noUiSlider{
+    width: 170px;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+.sizeValue{
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 180px;
+}
+
+/* 保存ボタン */
+.saveBtn{
+    font-size: 14px;
+    color: #fff;
+    background-color: #39C;
+    width: 80px;
+    height: 20px;
+    padding-top: 2px;
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+#menu hr{
+    margin: 20px 0 15px 0;
+}
+
+/*クリアボタン*/
+.clearBtn{
+    font-size: 14px;
+    color: #fff;
+    background-color: #CC0033;
+    width: 80px;
+    height: 20px;
+    padding-top: 2px;
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
